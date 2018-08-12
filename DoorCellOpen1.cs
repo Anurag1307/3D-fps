@@ -1,4 +1,6 @@
-﻿using UnityEngine.UI;
+//Controls the opening of door
+
+using UnityEngine.UI;
 using UnityEngine;
 
 public class DoorCellOpen1 : MonoBehaviour {
