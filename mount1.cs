@@ -1,4 +1,6 @@
-﻿using System.Collections;
+//basic usage of collision triggers
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
