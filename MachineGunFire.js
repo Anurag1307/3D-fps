@@ -1,8 +1,9 @@
-
+//Simple GunFire Code using js;
+//You need to create Ammo js program 1st that Stores the total Ammo
 function Update () {
-	if(GlobalAmmo.LoadedAmmo>3) {
+	if(Ammo.LoadedAmmo>0) {
 		if(Input.GetButtonDown("Fire1")) {
-			GlobalAmmo.LoadedAmmo -=4;
+			Ammo.LoadedAmmo -=4;
 			var gunsound : AudioSource = GetComponent.<AudioSource>();
 			gunsound.Play();
 			GetComponent.<Animation>().Play("magunfire");
