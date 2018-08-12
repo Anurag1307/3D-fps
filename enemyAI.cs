@@ -1,4 +1,6 @@
-﻿using System.Collections;
+//Controls enemy movements along with animation and attackDamage
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
